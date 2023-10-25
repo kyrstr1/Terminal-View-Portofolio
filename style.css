@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Code';
+    src: url('font/CascadiaCode.ttf')
+}
+
+body {
+    background-color: #0F1123;
+    font-family: 'Code';
+    color: #e5c1d1;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+a {
+    text-decoration-line: underline !important;
+}
+
+.terminal {
+    overflow-y: scroll;
+    border-radius: 24px;
+    border: 3px solid #6f6bbf;
+    scrollbar-width: none;
+}
+
+.terminal::-webkit-scrollbar {
+    display: none !important;
+}
+
+.user {
+    color: #FFBB5C
+}
+
+.directory {
+    color: #3876BF;
+}
+
+.symbols {
+    color: #C63D2F;
+}

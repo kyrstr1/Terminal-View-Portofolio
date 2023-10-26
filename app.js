@@ -24,7 +24,7 @@ const prompt = `<span class="user">you@kyrstr-website</span><span class="symbols
 const files = {
     'about_me.txt': `Hey!, I'm Kayra and i'm 16. I'm a simple high school student. I try to improve myself.<br><br>Isn't that enough? <br> type 'contact' to get in touch with me or to see my other websites`,
     'social.txt': `<a target="_blank" href="https://github.com/kyrstr1"> github</a>  or 
-    <a target="_blank" href="https://www.instagram.com/kyrstr1/">instagram</a>Contact me by clicking one of these links`,
+    <a target="_blank" href="https://www.instagram.com/kyrstr1/">instagram</a> Contact me by clicking one of these links`,
     'star.txt': `<a target="_blank" href="https://github.com/kyrstr1/kyrstr1.github.io">star my repo</a>`,
 }
 
